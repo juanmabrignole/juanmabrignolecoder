@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+
+    <!--LISTAS-->
+<!--lISTAS DESORDENADAS-->
+    <ul>
+        <li>Home</li>
+        <li>Trabajos</li>
+        <li>Servicios</li>
+        <li>Contacto</li>
+    </ul>
+
+    <!--lISTAS ORDENADAS-->
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    
+    <!--BOTONERA-->
+    <form>
+        <input type="submit" value="Envíar Formulario">
+        <br>
+        <input type="Reset" value="Limpiar Formulario">
+        <br>
+        <input type="button" value="Sin Acciones">
+    </form>
+
+    <!--ATRIBUTO VALUE-->
+    <!--BOTONES DE RADIO-->
+    <form>
+        <div>Hombre</div>
+        <input type="radio" name="Sexo" value="Hombre">
+        <div>Mujer</div>
+        <input type="radio" name="Sexo" value="Mujer">
+    </form>
+
+    <!--CAJA (CHECKBOX) DE CHEQUEO-->
+    <form>
+<div>Acepta las condiciones</div>
+<input type="checkbox" name="acepta" value="1">
+    </form>
+    
+</body>
+</html>
